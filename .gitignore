@@ -1,0 +1,32 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets.json
+credentials.json
+
+# Private databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Local test data
+received_images/
+plate.jpg
+*.log
+
+# Empty accidental file
+/python
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
